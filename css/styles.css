@@ -1,4 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Satisfy%7COpen+Sans');
+/* font-family: 'Satisfy', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
 
 .logo{
     width: 90px;
@@ -17,7 +19,7 @@ header h1{
 
 .nav-pills > li.active > a:hover, .product button:hover, footer a:hover {
     background-color: #edf1f4;
-    color: #5c433f
+    color: #5c433f;
 }
 
 nav li {
@@ -43,4 +45,30 @@ nav{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #fff;
+}
+
+/* My CSS */
+.img_box{
+    height:;
+}
+
+.nav-pills > li > a{
+    color: #5c433f;
+    border: 1pt solid #5c433f;
+}
+
+.nav-pills > li > a:hover{
+    background-color: #edf1f4;
+}
+
+.product{
+    background-color: #eeddcd;
+    padding: 15px;
+    border-radius: 5%;
+    background-clip: padding-box;
+    border: 4pt solid transparent;
+}
+
+.product > .row > div > button{
+    border: 1pt solid black; 
 }
