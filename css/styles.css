@@ -49,7 +49,7 @@ nav{
 
 /* My CSS */
 .img_box{
-    height:;
+    margin: 10px 0px;
 }
 
 .nav-pills > li > a{
@@ -63,12 +63,57 @@ nav{
 
 .product{
     background-color: #eeddcd;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 5%;
-    background-clip: padding-box;
-    border: 4pt solid transparent;
+    border: 5px solid rgb(252,252,252)
+    /* MINE: background-clip: padding-box;
+    border: 4pt solid transparent; */
 }
 
-.product > .row > div > button{
+/* .product > .row > div > button{
     border: 1pt solid black; 
+} */
+
+/* IN CLASS 10/4 */
+.featured {
+    margin-bottom: 60px;
+}
+
+.product button {
+    margin-bottom: 10px;
+    background-color: rgb(252,252,252)
+}
+
+aside a, footer{
+    background-color: #eeddcd;
+}
+
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+}
+
+footer a {
+    color: #5c433f;
+}
+
+footer img {
+    height: 90px;
+}
+
+.contact_info{
+    padding-top: 15px;
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.social{
+    padding-top: 15px; 
+}
+
+footer .fine_print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
 }
